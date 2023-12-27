@@ -53,7 +53,7 @@
             Web<span class="logo-second-word">Studio</span></a
           >
           <ul class="list nav-menu">
-            <li><a href="./index.html" class="nav-link link">Studio</a></li>
+            <li><a href="./index.html" class="nav-link link studio">Studio</a></li>
             <li>
               <a href="./portfolio.html" class="nav-link link">Portfolio</a>
             </li>
@@ -86,7 +86,7 @@
           <h1 class="title-first-section">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="button-first-section">
+          <button data-modal-open class="button-first-section" type="button" >
             Order Service
           </button>
         </div>
@@ -421,6 +421,9 @@
           </p>
         </div>
 
+
+        <!--Retele sociale-->
+
         <div class="footer-socials">
           <p class="p-social-media">Social media</p>
           <ul class="footer-list">
@@ -456,5 +459,18 @@
         </div>
       </div>
     </footer>
+    <div data-modal-open class="modal-cls is-hidden">
+      <div class="modal-window">
+        <button data-modal-close type="button" class="modal-button">
+          <svg width="8" height="8" class="modal-svg">
+            <use href="./images.icons.svg#icon-x"></use>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+    <script src="./js/modal.js"></script>
+
+
   </body>
 </html>
