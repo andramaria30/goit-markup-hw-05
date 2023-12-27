@@ -634,7 +634,7 @@ img {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
-  color: var(--button-color);
+  color: #f4f4f4fd;
   padding: 40px 32px;
   background-color: #4d5ae5;
   height: 100%;
@@ -1033,7 +1033,7 @@ img {
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin: 1px solid rgba(0, 0, 0.1);
+  margin: 1px solid rgba(0, 0, 0, 0.1);
   
 
 
