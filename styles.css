@@ -492,7 +492,7 @@ img {
 
 
 
-.port {
+/* .port {
 
   color: #404bbf;
   position: relative;
@@ -505,7 +505,7 @@ img {
 
 
 
-}
+} */
 
 
 .port::after {
